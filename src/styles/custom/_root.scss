@@ -1,0 +1,44 @@
+#app {
+  font-family: "Noto Sans TC", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.section-container {
+  padding-top: 64px;
+  padding-bottom: 80px;
+  padding-left: 85px;
+  padding-right: 85px;
+  @include media-md {
+    padding: 40px;
+  }
+  @include media-md {
+    padding: 15px;
+  }
+}
+
+.section-title {
+
+  @include media-md {
+    font-size: 32px;
+  }
+
+  @include media-md-down {
+    font-size: 24px;
+  }
+}
+
+.bg-base {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.fs-sm {
+  font-size: 14px;
+}

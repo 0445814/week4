@@ -1,0 +1,29 @@
+$red: #650300;
+$red-2: #aa0601;
+$red-3: #aa06010d;
+
+$danger-2: $red-2;
+$danger-3: $red-3;
+
+$custom-colors: (
+  "danger-2": $danger-2,
+  "danger-3": $danger-3,
+);
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+// theme
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// head
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 4;
+$h2-font-size: $font-size-base * 3;
+$h3-font-size: $font-size-base * 2;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+
+// grid
+$grid-columns: 24;
