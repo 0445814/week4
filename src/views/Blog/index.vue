@@ -62,7 +62,7 @@ export default {
 <style lang="scss" scoped>
 .navbar-blog {
   position: fixed;
-  top: 119px;
+  top: 108px;
   left: 0;
   right: 0;
 }
